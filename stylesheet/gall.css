@@ -1,0 +1,78 @@
+
+.navtap--superior{
+
+	margin: 0 auto;
+
+}
+
+.menuoptions {
+
+	width: 100%;
+	height: 50px;
+
+	background-color:rgba(192,192,192,0.7);
+
+}
+
+.menuup{
+
+	display: inline-block;
+	float: left;
+	padding-top: 1rem;
+	margin-left: 5rem;
+	
+	text-decoration: none;
+	color: white; font-weight: bold;
+	font-family: helvetica, arial narrow, sans serif;
+	/*border: 2px solid pink;*/
+}
+
+
+
+
+body {
+background: royalblue;
+
+}
+
+.slider--wrapper {
+
+margin-top: 10rem;
+text-align: center;
+}
+
+.slider {
+width: 400px;
+/*height: 200px;
+text-align: center;
+display: inline-block;
+float: left;*/
+
+text-align: center;
+margin: 20px auto;
+}
+
+h2 {
+margin: 1rem;
+background-color: pink;
+padding: 20px;
+margin-right: 2rem;
+text-align: center;
+}
+
+.boxes {
+
+border: 2px solid lightblue;
+margin: 1rem;
+background-color: white;
+}
+
+.slider div{
+
+/*background-color: purple ;   */
+
+}
+
+
+
+
