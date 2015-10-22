@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset='UTF-8'>
+
+<link rel="stylesheet" type="text/css" href="slick.css">
+
+<link rel="stylesheet" type="text/css" href="slick-theme.css">
+
+
+
+	 <title>My Now Amazing Webpage</title>
+
+
+  </head>
+
+<style> 
+
+
+body {
+background: royalblue;
+
+}
+
+.slider--wrapper {
+
+margin-top: 10rem;
+text-align: center;
+}
+
+.slider {
+width: 400px;
+/*height: 200px;
+text-align: center;
+display: inline-block;
+float: left;*/
+
+text-align: center;
+margin: 20px auto;
+}
+
+h2 {
+margin: 1rem;
+background-color: pink;
+padding: 20px;
+margin-right: 2rem;
+text-align: center;
+}
+
+.boxes {
+
+border: 2px solid lightblue;
+margin: 1rem;
+background-color: white;
+}
+
+.slider div{
+
+/*background-color: purple ;   */
+
+}
+
+
+</style>
+
+  <body>
+
+<div class="slider--wrapper">
+    <div class="slider">
+       <div class="boxes"><h2>box1</h2></div>
+        <div class="boxes"><h2>box2</h2></div>
+        <div class="boxes"><h2>box3</h2></div>
+        <div class="boxes"><h2>box4</h2></div>
+        <div class="boxes"><h2>box5</h2></div>
+        <div class="boxes"><h2>box6</h2></div>
+        <div class="boxes"><h2>box7</h2></div>
+        <div class="boxes"><h2>box8</h2></div>
+        <div class="boxes"><h2>box9</h2></div>
+        <div class="boxes"><h2>box10</h2></div>
+    </div>
+</div>	
+
+
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <script type="text/javascript" src="slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+            $('.slider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+          });
+       
+    });
+
+
+
+  </script>
+
+</body>
+
+
+</html>
