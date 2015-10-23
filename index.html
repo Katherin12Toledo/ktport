@@ -5,12 +5,14 @@
 <head>
 
 <meta charset='UTF-8'>
-
+ 
 <link rel="stylesheet" type="text/css" href="slick.css">
 
 <link rel="stylesheet" type="text/css" href="slick-theme.css">
 
 <link rel="stylesheet" type="text/css" href="stylesheet/gall.css">
+
+<link rel="shortcut icon" href="carimages/favicon.jpg">
 
 	 <title>My Now Amazing Webpage</title>
 
@@ -33,17 +35,25 @@
 
 
 <div class="slider--wrapper">
+
     <div class="slider">
-       <div class="boxes"><h2>box1</h2></div>
-        <div class="boxes"><h2>box2</h2></div>
-        <div class="boxes"><h2>box3</h2></div>
-        <div class="boxes"><h2>box4</h2></div>
-        <div class="boxes"><h2>box5</h2></div>
-        <div class="boxes"><h2>box6</h2></div>
-        <div class="boxes"><h2>box7</h2></div>
-        <div class="boxes"><h2>box8</h2></div>
-        <div class="boxes"><h2>box9</h2></div>
-        <div class="boxes"><h2>box10</h2></div>
+
+       <div class="pics"><img src="imagescarousel/2.jpg">
+        </div>
+        <div class="pics">  <img src="imagesgallery/shoreshore.jpg">  </div> 
+        <div class="pics"> <img src="imagescarousel/3.jpg">   </div>
+        <div class="pics"> <img src="imagescarousel/4.jpg">   </div>
+        <div class="pics"> <img src="imagescarousel/5.jpg">  </div>
+        <div class="pics">  <img src="imagescarousel/1.jpg">   </div>
+         <div class="pics">  <img src="carimages/1.jpg">   </div>
+          <div class="pics">  <img src="carimages/2.jpg">   </div>
+           <div class="pics">  <img src="carimages/3.jpg">   </div>
+            <div class="pics">  <img src="carimages/goodmorning1.jpg">   </div>
+    <!--     <div class="pics">   <img src="imagescarousel/2.jpg"> </div>
+        <div class="pics">  <img src="imagescarousel/2.jpg">   </div>
+        <div class="pics"> <img src="imagescarousel/2.jpg">    </div>
+        <div class="pics">   <img src="imagescarousel/2.jpg">    </div> -->
+
     </div>
 </div>	
 
@@ -60,8 +70,12 @@
             $('.slider').slick({
             dots: true,
             infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed:2000
+
+
           });
        
     });

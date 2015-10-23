@@ -1,7 +1,7 @@
 
 body {
 
- background: url(../imagescarousel/5.jpg) no-repeat center center fixed; 
+ background: url(../carimages/1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -53,11 +53,10 @@ text-align: center;
 }
 
 .slider {
-width: 600px;
-height: 300px;
-/*height: 200px;
-text-align: center;
-display: inline-block;
+/*width: 1000px;
+height: 500px;*/
+
+/*display: inline-block;
 float: left;*/
 
 text-align: center;
@@ -65,32 +64,57 @@ margin: 20px auto;
 }
 
 h2 {
-height: 100px;
-width: 100px;
 
-margin: 1rem;
-background-color: pink;
-padding: 20px;
-margin-right: 2rem;
+
+}
+
+.slider img {
+
+width: 800px;
+height: 500px;
+border-radius: 30px;
+/*margin: 1rem;*/
+
+
+/*max-width: 800px;
+max-height: 600px;*/
+/*margin: 10px;*/
+
+/*border: 2px solid lightblue;*/
 text-align: center;
+background-color: none;
+
+
 }
 
-.boxes {
 
-height: 100px;
-width: 100px;
 
-border: 2px solid lightblue;
-margin: 1rem;
-background-color: white;
-}
 
-.slider div{
 
+/*.slider div{
+/*max-width: 800px;
+max-height: 600px;*/
 /*background-color: purple ;   */
+/*margin-top: 3rem;
+margin: 4rem;
+padding: 20px;
+/*margin: 1rem;*/
+/*margin-right: 1.5rem;
+
+border: 2px solid orange;
+text-align: center;*/
 
 }
 
+/*.boxes img {
 
+width: 800px;
+height: 600px;
+margin-right: 2rem;
+
+max-width: 800px;
+max-height: 600px;
+
+}*/
 
 
