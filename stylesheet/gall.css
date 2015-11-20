@@ -1,0 +1,590 @@
+
+/* clearfix class */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+
+ background: url(../carimages/posters.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:helvetica;
+
+background-color: white;
+
+
+
+}
+
+html, body {
+    height: 100%;
+margin:0;
+   padding:0;
+     
+}
+
+.navtap--superior{
+
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.menuoptions {
+
+	height: 100%;
+	width: 200px;
+	padding-top: 2rem;
+    display:block;
+    position: fixed;
+    top:0;
+    left:0;
+
+	background-color:rgba(192,192,192,0.93);
+
+}
+
+.menuup{
+
+	/*display: inline-block;
+	float: left;
+	padding-top: 2rem;
+	margin-left: 5rem;*/
+	line-height:20px;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	text-decoration: none;
+	color: white; font-weight: bold;
+	font-family: helvetica, arial narrow, sans serif;
+	/*border: 2px solid pink;*/
+}
+
+
+.slider--wrapper {
+
+margin-left: 10rem;
+margin-top: 8rem;
+text-align: center;
+}
+
+.slider {
+/*width: 1000px;
+height: 500px;*/
+
+/*display: inline-block;
+float: left;*/
+
+text-align: center;
+margin: 10px auto;
+
+overflow: none;
+}
+
+h2 {
+
+
+}
+
+.slider img {
+
+width: 800px;
+height: 500px;
+border-radius: 10px;
+/*margin: 1rem;*/
+
+/*max-width: 800px;
+max-height: 600px;*/
+/*margin: 10px;*/
+
+/*border: 2px solid lightblue;*/
+text-align: center;
+background-color: none;
+overflow: none;
+
+}
+
+
+a {
+
+	text-decoration: none;
+}
+
+.tittletittle {
+
+width: 300px;
+height: 20px;
+
+
+margin-left: 32rem;
+
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-left: 3rem;
+padding-right: 3rem;
+border-radius: 15px;
+border: 1px solid skyblue;
+
+font-size: 20px;
+color: grey;
+font-weight: bold;
+font-family: helvetica;
+background-color: white;
+
+
+}
+
+
+/*about section*/
+
+
+.contentabout--wrapper {
+
+
+margin-top: 9rem;
+text-align: center;
+text-decoration: none;
+
+ /*position: relative;*/
+  /*  overflow: auto;*/
+
+
+/*height: auto !important;
+    margin: 0;
+    padding: 0;*/
+ 
+}
+
+
+.square--black {
+width: 1200px;
+height: 570px;
+
+margin: 0 auto;
+
+/*background-color: black;*/
+border-radius: 10px;
+margin-left: 18rem;
+/*border: 2px solid grey;*/
+}
+
+.tittleblackbox {
+width: 250px;
+margin-left: 25rem;
+margin-top: 3rem;
+border-radius: 10px;
+background-color: white;
+border: 2px solid skyblue;
+padding: auto;
+
+}
+
+.tittleblackbox h1{
+
+font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-size: 24px; color: grey;
+
+}
+
+.contentabout--box {
+
+width: 650px;
+height: auto 350px;
+
+border-radius: 15px;
+border: 2px solid skyblue;
+
+padding-right: 1.5rem;
+padding-bottom: 1.5rem;
+padding-left: 1.5rem;
+padding-top: 1.5rem;
+
+font-family: helvetica, arial narrow;
+font-size: 17px; color: grey;
+font-weight: normal;
+color: grey;
+
+margin-top: 1rem;
+margin-left: 25rem;
+background-color:  white;
+
+/*margin: 0 auto;*/
+
+text-align: left;
+
+}
+
+.boxfor-photo {
+
+width: 250px;
+height: 350px;
+/*border: 2px solid grey;*/
+display: inline-block;
+float: left;
+margin-right: 3rem;
+margin-left: 6rem;
+
+}
+
+.downloadbutton button {
+
+padding-left: 2rem;
+padding-right: 2rem;
+background-color: white;
+color: black; font-weight: bold;
+border-radius: 15px;
+margin-top: 1rem;
+font-size: 14px;
+box-shadow: none;
+}
+
+/*finish ABOUT CSS SECTION*/
+
+/*NOW DESIGN GALLERY TAB*/
+
+.wrapper--design {
+margin-top: 10rem;
+text-align: center;
+text-decoration: none;
+}
+
+.major--box {
+
+width: 1400px;
+height:  1870px;
+padding: 2rem;
+/*border: 1px solid black;*/
+
+margin: 0 auto;
+}
+
+.major--boxbox {
+
+width: 1280px;
+height:  1500px;
+padding: 2rem;
+/*border: 1px solid black;*/
+
+margin: 0 auto;
+}
+
+
+/* img:hover {
+
+	transform:scale(3,3.2);
+	transform-origin:0 0;*/
+
+}
+
+/*.boxes--designrow1 {
+
+display: inline-block;
+float: left;
+margin-right: 1rem;
+
+}*/
+
+.design__1 {
+width: 330px;
+height: 230px;
+/*border: 1px solid black;
+*/margin-top: 1rem; 
+margin-right: 0.5rem; margin-left: 0.5rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+	
+}
+
+.design__1 img {
+
+width: 330px;
+height: 230px;
+
+}
+
+.design__11 {
+width: 230px;
+height: 300px;
+/*border: 1px solid black;*/
+margin-top: 1rem; 
+margin-right: 1rem; margin-left: 1.7rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+	
+}
+
+.design__11 img {
+
+width: 230px;
+height: 300px;
+
+}
+
+.design__111 {
+width: 230px;
+height: 95px;
+/*border: 1px solid black;*/
+margin-top: 1rem; 
+margin-right: 1rem; margin-left: 1.7rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+	
+}
+
+.design__illust {
+width: 220px;
+height: 200px;
+/*border: 1px solid black;*/
+margin-top: 1rem; 
+margin-right: 1rem; margin-left: 1rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+
+}
+
+.design__illust img {
+   max-width:220px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+/*border: 1px solid black;*/
+}
+
+
+.footerfoo {
+	width: 100%;
+	height: 80px;
+	clear: both;
+   /* top:0;
+    left:0;
+bottom:0;*/
+	background-color:black;
+
+
+/*z-index: 10;*/
+margin-top: 3rem;
+overflow: none;
+}
+
+.wrapper--footer {
+
+
+/*	max-width: 960px;*/
+	width: 100%;
+	height: 80px;
+}
+
+
+.menuoptions a:hover {
+
+	color: black;
+}
+
+
+.socialmedia--boxforall {
+
+width: 460px;
+height: 60px;
+display: inline-block;
+float: left;
+
+margin-left: 0.5rem;
+margin-top: 2rem;
+
+
+border-radius: 10px;
+background-color: white;
+border: 2px solid skyblue;
+}
+
+.social1 {
+width: 40px;
+height: 40px;
+margin-left: 1rem;
+margin-top: 0.5rem;
+margin-right: 0.5rem;
+
+
+display: inline-block;
+float: left;
+
+/*border: 2px solid black;*/
+}
+
+.huge--boxforphotography {
+
+width: 1220px;
+height: 850px;
+
+border-radius: 10px;
+padding: 1rem;
+
+font-family: Georgia, Serif;
+font-size: 16px;
+font-weight: normal;
+color: black;
+
+margin-top: 3rem;
+margin-left: 17rem;
+margin-bottom: 3rem;
+/*background-color:  white;*/
+
+/*margin: 0 auto;*/
+/*border: 2px solid grey;*/
+
+text-align: left;
+white-space: nowrap;
+
+}
+
+.photo1{
+
+width: auto 250px;
+height: auto 200px;
+
+margin-right: 1rem;
+margin-left: 1rem;
+margin-top: 0.5rem;
+margin-bottom: 1rem;
+
+/*border: 2px solid black;*/
+display: inline-block;
+float: left;
+
+white-space: nowrap;
+}
+
+.tittlegallery h4 {
+
+font-size: 20px;
+color: grey;
+font-family: helvetica;
+margin-left: 15rem;
+margin-top: 3rem;
+
+}
+
+
+.vlightbox {
+display:-moz-inline-stack;
+display:none;
+zoom:1;
+*display:none;
+position:relative;
+vertical-align:top;
+margin:3px;
+width:160px;
+font-family:Trebuchet,Tahoma,Arial,sans-serif;
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+opacity:0.87;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* ideally, transition speed should match zoom duration */
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+
+.footercopyright {
+
+  /*margin-top: 3rem;*/
+
+bottom: 1.5rem;
+position: absolute;
+padding-left: ;
+  height: 120px;
+   width: 164px;
+   display:block;
+
+border: 2px solid black;
+background-color: black;
+padding: 1rem;
+
+}
+
+.footercopyright {
+
+font-size: 13px;
+font-family: arial;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+/*.slider div{
+/*max-width: 800px;
+max-height: 600px;*/
+/*background-color: purple ;   */
+/*margin-top: 3rem;
+margin: 4rem;
+padding: 20px;
+/*margin: 1rem;*/
+/*margin-right: 1.5rem;
+
+border: 2px solid orange;
+text-align: center;*/
+
+}
+
+/*.boxes img {
+
+width: 800px;
+height: 600px;
+margin-right: 2rem;
+
+max-width: 800px;
+max-height: 600px;
+
+}*/
+
+
