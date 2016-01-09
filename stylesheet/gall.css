@@ -16,7 +16,11 @@
 
 body {
 
+<<<<<<< HEAD
  background: url(../carimages/posters.png) no-repeat center center fixed; 
+=======
+ background: url/*(../imagesgallery/grapefruit1.jpg)*/ no-repeat center center fixed; 
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,7 +56,11 @@ margin:0;
     top:0;
     left:0;
 
+<<<<<<< HEAD
 	background-color:rgba(192,192,192,0.93);
+=======
+	background-color:rgba(192,192,192,0.7);
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 }
 
@@ -75,7 +83,11 @@ margin:0;
 .slider--wrapper {
 
 margin-left: 10rem;
+<<<<<<< HEAD
 margin-top: 8rem;
+=======
+margin-top: 12rem;
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 text-align: center;
 }
 
@@ -87,7 +99,11 @@ height: 500px;*/
 float: left;*/
 
 text-align: center;
+<<<<<<< HEAD
 margin: 10px auto;
+=======
+margin: 15px auto;
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 overflow: none;
 }
@@ -121,6 +137,7 @@ a {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 .tittletittle {
 
 width: 300px;
@@ -144,6 +161,8 @@ background-color: white;
 
 
 }
+=======
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 
 /*about section*/
@@ -179,6 +198,7 @@ margin-left: 18rem;
 /*border: 2px solid grey;*/
 }
 
+<<<<<<< HEAD
 .tittleblackbox {
 width: 250px;
 margin-left: 25rem;
@@ -194,6 +214,16 @@ padding: auto;
 
 font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 font-size: 24px; color: grey;
+=======
+.tittleblackbox h1{
+
+width: 250px;
+
+font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+font-size: 24px; color: grey;
+margin-left: 23.5rem;
+margin-top: 3rem;
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 }
 
@@ -202,6 +232,7 @@ font-size: 24px; color: grey;
 width: 650px;
 height: auto 350px;
 
+<<<<<<< HEAD
 border-radius: 15px;
 border: 2px solid skyblue;
 
@@ -214,6 +245,18 @@ font-family: helvetica, arial narrow;
 font-size: 17px; color: grey;
 font-weight: normal;
 color: grey;
+=======
+border-radius: 10px;
+/*border: 2px solid grey;*/
+
+padding-right: 1rem;
+padding-bottom: 1rem;
+
+font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+font-size: 21px; color: grey;
+font-weight: normal;
+color: black;
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 margin-top: 1rem;
 margin-left: 25rem;
@@ -406,7 +449,11 @@ overflow: none;
 
 .socialmedia--boxforall {
 
+<<<<<<< HEAD
 width: 460px;
+=======
+width: 520px;
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 height: 60px;
 display: inline-block;
 float: left;
@@ -414,10 +461,14 @@ float: left;
 margin-left: 0.5rem;
 margin-top: 2rem;
 
+<<<<<<< HEAD
 
 border-radius: 10px;
 background-color: white;
 border: 2px solid skyblue;
+=======
+/*border: 2px solid black;*/
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 }
 
 .social1 {
@@ -447,10 +498,17 @@ font-size: 16px;
 font-weight: normal;
 color: black;
 
+<<<<<<< HEAD
 margin-top: 3rem;
 margin-left: 17rem;
 margin-bottom: 3rem;
 /*background-color:  white;*/
+=======
+margin-top: 1rem;
+margin-left: 17rem;
+margin-bottom: 3rem;
+background-color:  white;
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 /*margin: 0 auto;*/
 /*border: 2px solid grey;*/
@@ -529,6 +587,7 @@ opacity:0.87;
 }
 
 
+<<<<<<< HEAD
 .footercopyright {
 
   /*margin-top: 3rem;*/
@@ -553,6 +612,10 @@ font-family: arial;
 color: white;
 
 }
+=======
+
+
+>>>>>>> c43499fd72452bfb07c582a43d434e87bd6e73da
 
 
 
