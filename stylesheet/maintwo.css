@@ -1,0 +1,614 @@
+
+/* clearfix class */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+
+ background: url(../carimages/posters.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:helvetica;
+
+background-color: white;
+
+}
+
+.pics img {
+ 
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+html, body {
+    height: 100%;
+margin:0;
+   padding:0;
+     overflow: auto;
+}
+
+.navtap--superior{
+
+	margin: 0 auto;
+	max-width: 960px;
+  overflow: auto;
+}
+
+.menuoptions {
+
+	height: 70px;
+	width: 100%;
+	padding-top: 2rem;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+ overflow: auto;
+	background-color:rgba(255,69,0,0.9);
+
+}
+
+.menuup{
+
+	display: inline-block;
+	float: left;
+	/*padding-top: 2rem;
+	margin-left: 5rem;*/
+	line-height:20px;
+ 
+	padding-top: 1rem;
+ 
+   margin-left: 6rem;
+	text-decoration: none;
+	color: white; font-weight: bold;
+	font-family: helvetica, arial narrow, sans serif;
+  font-size: 18px;
+	/*border: 2px solid pink;*/
+  overflow: auto;
+}
+
+
+.slider--wrapper {
+
+margin-left: 10rem;
+margin-top: 8rem;
+text-align: center;
+}
+
+.slider {
+/*width: 1000px;
+height: 500px;*/
+
+/*display: inline-block;
+float: left;*/
+text-align: center;
+margin: 10px auto;
+overflow: none;
+}
+
+
+.slider img {
+
+width: 800px;
+height: 500px;
+border-radius: 10px;
+/*margin: 1rem;*/
+
+/*max-width: 800px;
+max-height: 600px;*/
+/*margin: 10px;*/
+
+/*border: 2px solid lightblue;*/
+text-align: center;
+background-color: none;
+overflow: auto;
+
+}
+
+
+a {
+
+	text-decoration: none;
+}
+
+.tittletittle {
+
+width: 500px;
+height: 40px;
+
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+
+border-radius: 15px;
+/*border: 1px solid skyblue; */
+background-color: black;
+
+font-size: 20px;
+color: lightgrey;
+font-weight: bold;
+font-family: helvetica;
+
+}
+
+
+/*about section*/
+
+
+.contentabout--wrapper {
+margin-top: 9rem;
+text-align: center;
+text-decoration: none;
+ 
+}
+
+
+.square--black {
+width: 1200px;
+height: 570px;
+
+margin: 0 auto;
+
+/*background-color: black; border: 2px solid grey;*/
+border-radius: 10px;
+margin-left: 18rem;
+
+}
+
+
+.contentabout--box {
+
+width: 650px;
+height:  325px;
+
+border-radius: 15px;
+
+padding-right: 1.5rem;
+padding-bottom: 1.5rem;
+padding-left: 1.5rem;
+padding-top: 0.1rem;
+
+font-family: helvetica, arial narrow;
+font-size: 17px; color: white;
+font-weight: normal;
+color: white;
+margin-left: 25rem;
+background-color:  black;
+
+text-align: left;
+
+}
+
+.tittleblackbox {
+width: 180px;
+height: 50px;
+margin-left: 26rem;
+margin-top: 6rem;
+
+background-color: black;
+
+padding: auto;
+
+}
+
+.tittleblackbox h1{
+
+padding-top: 0.5rem;
+font-family: 'Avant Garde', Avantgarde, 'Century Gothic';
+font-size: 24px; color: white;
+
+}
+
+
+.boxfor-photo {
+
+width: 250px;
+height: 350px;
+display: inline-block;
+float: left;
+margin-right: 3rem;
+margin-left: 6rem;
+
+}
+
+.socialmedia--boxforall {
+
+width: 480px;
+height: 70px;
+margin-left: 25rem;
+margin-top: 0.5rem;
+border-radius: 5px;
+background-color: white;
+
+display: inline-block;
+float: left;
+}
+
+.social1 {
+width: 40px;
+height: 40px;
+margin-left: 1rem;
+margin-top: 0.5rem;
+margin-right: 0.5rem;
+
+display: inline-block;
+float: left;
+
+}
+
+.downloadbutton button {
+
+padding-left: 2rem;
+padding-right: 2rem;
+background-color: white;
+color: black; font-weight: bold;
+border-radius: 15px;
+margin-top: 1rem;
+font-size: 14px;
+box-shadow: none;
+}
+
+/*finish ABOUT CSS SECTION*/
+
+/*NOW DESIGN GALLERY TAB*/
+
+.wrapper--design {
+margin-top: 10rem;
+text-align: center;
+text-decoration: none;
+}
+
+.major--box {
+
+width: 1400px;
+height:  1870px;
+padding: 2rem;
+/*border: 1px solid black;*/
+
+margin: 0 auto;
+}
+
+.major--boxbox {
+
+width: 1280px;
+height:  1500px;
+padding: 2rem;
+/*border: 1px solid black;*/
+
+margin: 0 auto;
+}
+
+
+
+.design__1 {
+width: 330px;
+height: 230px;
+/*border: 1px solid black;
+*/margin-top: 1rem; 
+margin-right: 0.5rem; margin-left: 0.5rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+	
+}
+
+.design__1 img {
+
+width: 330px;
+height: 230px;
+
+}
+
+.design__11 {
+width: 230px;
+height: 300px;
+margin-top: 1rem; 
+margin-right: 1rem; margin-left: 1.7rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+	
+}
+
+.design__11 img {
+
+width: 230px;
+height: 300px;
+
+}
+
+.design__111 {
+width: 230px;
+height: 95px;
+margin-top: 1rem; 
+margin-right: 1rem; margin-left: 1.7rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+	
+}
+
+.design__illust {
+width: 220px;
+height: 200px;
+/*border: 1px solid black;*/
+margin-top: 1rem; 
+margin-right: 1rem; margin-left: 1rem;
+margin-bottom: 2rem;
+text-align: center;
+
+display: inline-block;
+float: left;
+
+}
+
+.design__illust img {
+   max-width:220px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+/*border: 1px solid black;*/
+}
+
+
+
+.menuoptions a:hover {
+
+	color: black;
+  text-decoration: none;
+}
+
+.huge--boxforphotography {
+
+width: 1220px;
+height: 850px;
+
+border-radius: 10px;
+padding: 1rem;
+
+font-family: Georgia, Serif;
+font-size: 16px;
+font-weight: normal;
+color: black;
+
+margin-top: 3rem;
+margin-left: 17rem;
+margin-bottom: 3rem;
+
+text-align: left;
+white-space: nowrap;
+
+}
+
+.photo1{
+
+width: auto 250px;
+height: auto 200px;
+
+margin-right: 1rem;
+margin-left: 1rem;
+margin-top: 0.5rem;
+margin-bottom: 1rem;
+
+/*border: 2px solid black;*/
+display: inline-block;
+float: left;
+
+white-space: nowrap;
+}
+
+.tittlegallery h4 {
+
+font-size: 20px;
+color: grey;
+font-family: helvetica;
+margin-left: 15rem;
+margin-top: 3rem;
+
+}
+
+
+.vlightbox {
+display:-moz-inline-stack;
+display:none;
+zoom:1;
+*display:none;
+position:relative;
+vertical-align:top;
+margin:3px;
+width:160px;
+font-family:Trebuchet,Tahoma,Arial,sans-serif;
+font-size:11px;
+font-weight:normal;
+text-decoration:none;
+text-align:center;
+opacity:0.87;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* ideally, transition speed should match zoom duration */
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+
+
+
+
+img {
+ 
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+
+
+.wrapper--footer {
+
+  width: 100%;
+  height: 80px;
+}
+
+
+
+
+/*.slider div{
+/*max-width: 800px;
+max-height: 600px;*/
+/*background-color: purple ;   */
+/*margin-top: 3rem;
+margin: 4rem;
+padding: 20px;
+/*margin: 1rem;*/
+/*margin-right: 1.5rem;
+
+border: 2px solid orange;
+text-align: center;*/
+
+}
+
+/*.boxes img {
+
+width: 800px;
+height: 600px;
+margin-right: 2rem;
+
+max-width: 800px;
+max-height: 600px;
+
+}*/
+
+
+
+/*.pics img {
+
+max-width: 305px;
+max-height: 100px;
+display: inline-block;
+float: left;
+
+}
+
+.pics2 img{
+
+max-width: 305px;
+max-height: 100px;
+display: inline-block;
+float: left;
+
+}
+
+.pics3 img{
+
+max-width: 305px;
+max-height: 100px;
+display: inline-block;
+float: left;
+
+}*/
+/*
+   <!-- <div class="pics3">  <img src="carimages/goodmorning1.png">   </div>
+
+      <div class="slider"> </div>   <div class="pics">   <img src="imagescarousel/2.jpg"> </div>
+        <div class="pics">  <img src="imagescarousel/2.jpg">   </div>
+        <div class="pics"> <img src="imagescarousel/2.jpg">    </div>
+        <div class="pics">   <img src="imagescarousel/2.jpg">    </div> -->*/
+
+/*.stayputphotos {
+position: absolute;
+z-index: 100;
+}does not goes here, use it when need it 
+<div class="tittletittle">
+<p>Visual Arts Portfolio</p></div>*/
+/*.tittletittle {
+
+width: 400px;
+height: 50px;
+margin: 0 auto;
+background-color: black;
+margin-left: 55rem;
+margin-top: 23rem;
+}
+
+.tittletittle p{
+padding: 1rem;
+font-size: 22px; 
+text-align: center;
+color: lightgrey;
+font-weight: bold; 
+font-family: helvetica;
+}*/
+
+
+  /*<a href="about.html">
+            <div class="jiji"  type="about">About</div>
+              </a>*/
+
+/*the script for the slider
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+  <script type="text/javascript" src="slick.min.js"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+            $('.slider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed:2000
+
+
+          });
+       
+    });
+
+
+
+  </script> */
