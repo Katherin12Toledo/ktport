@@ -1,0 +1,279 @@
+
+
+/* clearfix class */
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+
+ background: url(../carimages/posters.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-color: white;
+}
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+.pics img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+html, body {
+height: 100%;
+margin:0;
+padding:0;
+
+}
+
+.menusuperior{
+ padding: 1rem;
+ position: fixed;
+ right: 0;
+ top: 0;
+ left: 0;
+ width: 100%;
+ background-color:rgba(255,69,0,0.9);
+}
+
+.menuup{
+   /*border: 2px solid grey;*/
+width: 200px;
+  margin: 0 auto;
+padding-top: 2rem;
+padding-bottom: 2rem;
+  
+}
+
+.menuupdesign{
+   /*border: 2px solid grey;*/
+width: 800px;
+  margin: 0 auto;
+padding-top: 2rem;
+padding-bottom: 2rem;
+  
+}
+
+.menuupillustrations{
+   /*border: 2px solid grey; */
+width: 900px;
+  margin: 0 auto;
+padding-top: 2rem;
+padding-bottom: 2rem;
+  
+}
+
+
+.jiji{
+  text-align: center;
+  text-decoration: none;
+  color: white; font-weight: bold;
+  font-family: helvetica, arial narrow, sans serif;
+  font-size: 22px;
+  margin-right: 3rem;
+
+  display: inline-block;
+  float: left;
+}
+
+
+.gallery-holderphoto{
+
+width: 1220px;
+height: 1750px;
+
+margin: 0 auto;
+margin-top: 10rem;
+margin-bottom: 8rem;
+background-color: rgb(255,255,255);
+
+border: 2px solid grey; 
+border-radius: 10px;
+
+} 
+
+.onerowphoto {
+width: 1080px; 
+height: 250px; 
+/*border: 5px solid grey;*/
+margin-top: 4rem;
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+
+.secondrowphoto {
+width: 1080px; 
+height: 225px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+
+.thirdrowphoto {
+width: 1080px; 
+height: 190px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+.fourthrowphoto {
+width: 1080px; 
+height: 180px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+.fifthrowphoto {
+width: 1080px; 
+height: 190px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+.sixthrowphoto {
+width: 1080px; 
+height: 190px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+.seventhrowphoto {
+width: 1080px; 
+height: 95px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+/*
+<div class="8rowphoto">
+</div><!--eigthrow-->
+.8rowphoto {
+width: 1100px; 
+height: 200px; 
+border: 5px solid grey;
+
+margin-left: 1.5rem;
+}*/
+
+
+.eigthrowphoto {
+width: 1080px; 
+height: 195px; 
+/*border: 5px solid grey;*/
+/*margin-top: 4rem;*/
+margin-left: 1.5rem;
+padding-left: 6rem;
+}
+
+
+.lilp{
+width: auto;
+height: 169.6px ;
+
+/*background-color: white;*/
+/*border: 3px solid red;*/
+display: inline-block;
+float: left;
+}
+
+.lil7{
+width: auto;
+height: 122.6px;
+
+/*background-color: white;*/
+/*border: 3px solid red;*/
+display: inline-block;
+float: left;
+}
+
+.photone {
+width: auto;
+height: 260px;
+
+/*background-color: white;*/
+/*border: 3px solid grey;*/
+display: inline-block;
+float: left;
+}
+
+.phototwo {
+width: auto;
+height: 235px;
+
+/*background-color: white;*/
+/*border: 3px solid grey;*/
+display: inline-block;
+float: left;
+}
+
+.phopho {
+width: auto;
+height: 200px;
+
+/*background-color: white;*/
+/*border: 3px solid grey;*/
+display: inline-block;
+float: left;
+}
+
+.phofifth {
+width: auto;
+height: 200px;
+
+/*background-color: white;*/
+/*border: 3px solid grey;*/
+display: inline-block;
+float: left;
+}
+
+.photfour {
+width: auto;
+height: 200px;
+
+/*background-color: white;*/
+/*border: 3px solid grey;*/
+display: inline-block;
+float: left;
+}
+
+.sixtfour {
+width: auto;
+height: 200px;
+
+/*background-color: white;*/
+/*border: 3px solid grey;*/
+display: inline-block;
+float: left;
+}

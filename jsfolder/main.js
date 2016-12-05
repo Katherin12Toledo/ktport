@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Carousel Auto-Cycle
   $(document).ready(function() {
     $('.carousel').carousel({
@@ -40,3 +41,6 @@ $('.image-link').magnificPopup({
   }
 
 });
+=======
+
+>>>>>>> 2b3d2b034e0a5d73c8bfd4aadf55af9d51e8359c
